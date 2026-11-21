@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 # ==============================================================================
 # Development Environment Setup Script
-# Opens Firefox with the DSA YouTube Playlist and launches the working Antigravity IDE
+# Opens Firefox with Code & Debug DSA Python Course and launches Antigravity IDE
 # ==============================================================================
 
 PROJECT_DIR="/home/hammad/project/dsa"
-PLAYLIST_URL="https://www.youtube.com/playlist?list=PLhR2IpV1b2FwWwviBHRrR118YAaSlyhTU"
+PLAYLIST_URL="https://youtube.com/playlist?list=PLhR2IpV1b2FwWwviBHRrR118YAaSlyhTU&si=q0sPCdlg3LjogugN"
 
 echo "=== Initializing DSA Study & Dev Environment ==="
 
 # 1. Open Firefox with the DSA Playlist
-echo "[1/2] Opening Firefox with the YouTube playlist..."
+echo "[1/2] Opening Firefox with Code & Debug DSA Python Course..."
 if command -v firefox >/dev/null 2>&1; then
     nohup firefox "$PLAYLIST_URL" >/dev/null 2>&1 &
 else

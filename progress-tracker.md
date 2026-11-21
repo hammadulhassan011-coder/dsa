@@ -1,20 +1,19 @@
 # 📅 Daily DSA Progress Tracker
 
-Log daily practice here to stay consistent and track improvement over time.
+Keep track of your daily study session, lecture numbers, problems solved, and key takeaways.
 
 ---
 
-| Date | Topic | Problem / Concept | Difficulty | Solution Link | Key Takeaway / Notes |
-|---|---|---|:---:|---|---|
-| *YYYY-MM-DD* | *Topic Name* | *Example: Two Sum* | *Easy* | [*Link*](./) | *Hash map for O(n) lookup* |
+| Date | Lecture # | Module | Problem / Concept | Status | Solution Link | Notes / Key Takeaways |
+|---|:---:|---|---|:---:|---|---|
+| 2026-11-21 | 005 | Basics & Math | Digit Extraction Using Loops | 🟡 In Progress | [`1st_day.py`](./1st_day.py) | Use modulo `% 10` for last digit, integer division `// 10` to reduce |
 
 ---
 
-### 💡 Daily Checklist
-- [ ] Understand problem statement and edge cases
-- [ ] Brainstorm brute-force approach first
-- [ ] Optimize time and space complexity
-- [ ] Write clean, readable code with comments
-- [ ] Write test cases / assertions
-- [ ] Log entry in this tracker
+### 💡 Daily Practice Checklist
+- [ ] Watch lecture video from the [Code & Debug Course](https://youtube.com/playlist?list=PLhR2IpV1b2FwWwviBHRrR118YAaSlyhTU&si=q0sPCdlg3LjogugN)
+- [ ] Understand edge cases (e.g. negative numbers, 0, single digit)
+- [ ] Implement iterative and/or optimized logic
+- [ ] Run assertions / test cases
+- [ ] Add an entry in this tracker
 - [ ] Commit & push to GitHub
