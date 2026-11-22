@@ -4,6 +4,14 @@ Keep track of your daily study session, lecture numbers, problems solved, and ke
 
 ---
 
+### 🌟 Day 2 — 2026-11-22
+
+| Lecture # | Module | Problem / Concept | Difficulty | Status | Solution Files | Notes & Key Takeaways |
+|:---:|---|---|:---:|:---:|---|---|
+| **007** | Basics & Math | Check Palindrome Number (LeetCode 9) | Easy | ✅ Completed | [`2nd_day.py`](./2nd_day.py) & [`007_palindrome_number.py`](./topics/01-basics-and-math/007_palindrome_number.py) | • **Time Complexity:** $O(\log_{10} N)$ — loop runs for $d = \lfloor\log_{10} N\rfloor + 1$ digits.<br>• **Space Complexity:** $O(1)$ — constant scalar variables.<br>• Reverse number using `result = (result * 10) + (num % 10)` and `num //= 10`.<br>• Compare `result == original_n`. Negative numbers cannot be palindromes. |
+
+---
+
 ### 🌟 Day 1 — 2026-11-21
 
 | Lecture # | Module | Problem / Concept | Difficulty | Status | Solution Files | Notes & Key Takeaways |
@@ -15,8 +23,9 @@ Keep track of your daily study session, lecture numbers, problems solved, and ke
 
 ### 💡 Daily Practice Checklist
 - [x] Watch lecture video from the [Code & Debug Course](https://youtube.com/playlist?list=PLhR2IpV1b2FwWwviBHRrR118YAaSlyhTU&si=q0sPCdlg3LjogugN)
-- [x] Understand edge cases (e.g. single digit, 0, large numbers)
-- [x] Implement iterative and optimized logic
+- [x] Understand edge cases (e.g. single digit, 0, negative numbers)
+- [x] Analyze Time & Space Complexity
+- [x] Implement iterative and/or mathematical logic
 - [x] Run assertions / test cases
 - [x] Add an entry in this tracker
 - [x] Commit & push to GitHub
