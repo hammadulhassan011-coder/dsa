@@ -4,6 +4,14 @@ Keep track of your daily study session, lecture numbers, problems solved, and ke
 
 ---
 
+### 🌟 Day 3 — 2026-11-23
+
+| Lecture # | Module | Problem / Concept | Difficulty | Status | Solution Files | Notes & Key Takeaways |
+|:---:|---|---|:---:|:---:|---|---|
+| **008** | Basics & Math | Armstrong Number (LeetCode 1134) | Easy | ✅ Completed | [`3rd_day.py`](./3rd_day.py) & [`008_armstrong_number.py`](./topics/01-basics-and-math/008_armstrong_number.py) | • **Time Complexity:** $O(\log_{10} N)$ — calculating digit count and extraction loop.<br>• **Space Complexity:** $O(1)$ — constant auxiliary memory.<br>• An Armstrong number equals the sum of its digits each raised to power $k$ (number of digits).<br>• Accumulate `total += (ld ** nod)` and compare `total == original_n`. |
+
+---
+
 ### 🌟 Day 2 — 2026-11-22
 
 | Lecture # | Module | Problem / Concept | Difficulty | Status | Solution Files | Notes & Key Takeaways |
