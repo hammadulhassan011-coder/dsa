@@ -4,6 +4,14 @@ Keep track of your daily study session, lecture numbers, problems solved, and ke
 
 ---
 
+### 🌟 Day 4 — 2026-11-24
+
+| Lecture # | Module | Problem / Concept | Difficulty | Status | Solution Files | Notes & Key Takeaways |
+|:---:|---|---|:---:|:---:|---|---|
+| **009** | Basics & Math | Print All Factors / Divisors of a Number | Easy | 🟡 In Progress | [`3rd_day2.py`](./3rd_day2.py) & [`009_print_all_factors.py`](./topics/01-basics-and-math/009_print_all_factors.py) | • **Self-Developed Brute Force:** Iterates `1` to `n`, checking `num % i == 0`.<br>• **Time Complexity:** $O(n)$ — tests every number up to $n$.<br>• **Space Complexity:** $O(k)$ where $k$ is the total count of factors stored in the list.<br>• *Next Goal:* Implement the optimal $O(\sqrt{n})$ pair-factorization approach tomorrow. |
+
+---
+
 ### 🌟 Day 3 — 2026-11-23
 
 | Lecture # | Module | Problem / Concept | Difficulty | Status | Solution Files | Notes & Key Takeaways |
@@ -30,10 +38,9 @@ Keep track of your daily study session, lecture numbers, problems solved, and ke
 ---
 
 ### 💡 Daily Practice Checklist
-- [x] Watch lecture video from the [Code & Debug Course](https://youtube.com/playlist?list=PLhR2IpV1b2FwWwviBHRrR118YAaSlyhTU&si=q0sPCdlg3LjogugN)
-- [x] Understand edge cases (e.g. single digit, 0, negative numbers)
+- [x] Brainstorm approach before checking solution
 - [x] Analyze Time & Space Complexity
-- [x] Implement iterative and/or mathematical logic
-- [x] Run assertions / test cases
+- [x] Implement initial solution and test
+- [ ] Implement optimized $O(\sqrt{n})$ approach
 - [x] Add an entry in this tracker
 - [x] Commit & push to GitHub
