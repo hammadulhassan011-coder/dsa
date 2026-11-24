@@ -1,4 +1,5 @@
-# Print all the factorial of number n
+# Print all the factors of number n
+# Extreme brute force method 
 n=33
 result=[]
 num=n
