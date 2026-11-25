@@ -8,7 +8,7 @@ Keep track of your daily study session, lecture numbers, problems solved, and ke
 
 | Lecture # | Module | Problem / Concept | Difficulty | Status | Solution Files | Notes & Key Takeaways |
 |:---:|---|---|:---:|:---:|---|---|
-| **009** | Basics & Math | Print All Factors / Divisors of a Number | Easy | 🟡 In Progress | [`3rd_day2.py`](./3rd_day2.py) & [`009_print_all_factors.py`](./topics/01-basics-and-math/009_print_all_factors.py) | • **Self-Developed Brute Force:** Iterates `1` to `n`, checking `num % i == 0`.<br>• **Time Complexity:** $O(n)$ — tests every number up to $n$.<br>• **Space Complexity:** $O(k)$ where $k$ is the total count of factors stored in the list.<br>• *Next Goal:* Implement the optimal $O(\sqrt{n})$ pair-factorization approach tomorrow. |
+| **009** | Basics & Math | Print All Factors / Divisors of a Number | Easy | 🟡 In Progress | [`3rd_day2.py`](./3rd_day2.py), [`4th_day.py`](./4th_day.py), [`009_print_all_factors.py`](./topics/01-basics-and-math/009_print_all_factors.py) | • **Extreme Brute Force:** Iterates `1` to `n`. Time: $O(n)$, Space: $O(k)$.<br>• **Better Approach:** Iterates `1` to `n // 2` then appends `n`. Time: $O(n/2) \approx O(n)$, Space: $O(k)$. Cuts iterations by 50% since no factor other than $n$ exceeds $n/2$.<br>• *Next Goal:* Implement the optimal $O(\sqrt{n})$ pair-factorization approach. |
 
 ---
 
