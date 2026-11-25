@@ -30,3 +30,8 @@ htmlcov/
 *~
 .DS_Store
 Thumbs.db
+
+# Scratch / Rough work files
+rough*.py
+rough_work.py
+rough_wrok.py
