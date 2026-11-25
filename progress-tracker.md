@@ -4,11 +4,20 @@ Keep track of your daily study session, lecture numbers, problems solved, and ke
 
 ---
 
+### 🌟 Day 5 — 2026-11-25
+
+| Lecture # | Module | Problem / Concept | Difficulty | Status | Solution Files | Notes & Key Takeaways |
+|:---:|---|---|:---:|:---:|---|---|
+| **009** | Basics & Math | Print All Factors (Optimal $O(\sqrt{n})$) | Easy | ✅ Completed | [`5th_day.py`](./5th_day.py) & [`009_print_all_factors.py`](./topics/01-basics-and-math/009_print_all_factors.py) | • **Optimal Square-Root:** Iterate $1$ to $\lfloor\sqrt{n}\rfloor$, collecting pair factors $(i, n // i)$.<br>• **Time Complexity:** $O(\sqrt{n}) + O(k \log k)$ for sorting.<br>• **Space Complexity:** $O(k)$ for storing factors.<br>• *Important Boundary:* Loop upper bound must be `int(sqrt(num)) + 1` and check `if i != num // i` so perfect squares (e.g., 36) include 6 without duplicating it. |
+| **010** | Basics & Math | Store Frequency in Dictionary (Hashing) | Easy | ✅ Completed | [`5th_day2.py`](./5th_day2.py) & [`010_frequency_distribution.py`](./topics/01-basics-and-math/010_frequency_distribution.py) | • **Hash Map / Dict Counting:** Iterate over list and count occurrences in $O(1)$ average lookup time.<br>• **Time Complexity:** $O(n)$ where $n = \text{len}(list)$.<br>• **Space Complexity:** $O(u)$ where $u$ is number of unique elements.<br>• Pythonic alternatives: `freq.get(x, 0) + 1` or `collections.Counter(arr)`. |
+
+---
+
 ### 🌟 Day 4 — 2026-11-24
 
 | Lecture # | Module | Problem / Concept | Difficulty | Status | Solution Files | Notes & Key Takeaways |
 |:---:|---|---|:---:|:---:|---|---|
-| **009** | Basics & Math | Print All Factors / Divisors of a Number | Easy | 🟡 In Progress | [`3rd_day2.py`](./3rd_day2.py), [`4th_day.py`](./4th_day.py), [`009_print_all_factors.py`](./topics/01-basics-and-math/009_print_all_factors.py) | • **Extreme Brute Force:** Iterates `1` to `n`. Time: $O(n)$, Space: $O(k)$.<br>• **Better Approach:** Iterates `1` to `n // 2` then appends `n`. Time: $O(n/2) \approx O(n)$, Space: $O(k)$. Cuts iterations by 50% since no factor other than $n$ exceeds $n/2$.<br>• *Next Goal:* Implement the optimal $O(\sqrt{n})$ pair-factorization approach. |
+| **009** | Basics & Math | Print All Factors / Divisors of a Number | Easy | ✅ Completed | [`3rd_day2.py`](./3rd_day2.py), [`4th_day.py`](./4th_day.py), [`009_print_all_factors.py`](./topics/01-basics-and-math/009_print_all_factors.py) | • **Extreme Brute Force:** Iterates `1` to `n`. Time: $O(n)$, Space: $O(k)$.<br>• **Better Approach:** Iterates `1` to `n // 2` then appends `n`. Time: $O(n/2) \approx O(n)$, Space: $O(k)$. Cuts iterations by 50% since no factor other than $n$ exceeds $n/2$. |
 
 ---
 
@@ -41,6 +50,7 @@ Keep track of your daily study session, lecture numbers, problems solved, and ke
 - [x] Brainstorm approach before checking solution
 - [x] Analyze Time & Space Complexity
 - [x] Implement initial solution and test
-- [ ] Implement optimized $O(\sqrt{n})$ approach
+- [x] Implement optimized $O(\sqrt{n})$ approach
+- [x] Implement frequency distribution with hash map
 - [x] Add an entry in this tracker
 - [x] Commit & push to GitHub
