@@ -8,7 +8,7 @@ Keep track of your daily study session, lecture numbers, problems solved, and ke
 
 | Lecture # | Module | Problem / Concept | Difficulty | Status | Solution Files | Notes & Key Takeaways |
 |:---:|---|---|:---:|:---:|---|---|
-| **011** | Basics & Math | Intro to Hashing: Query Frequency Search | Easy | ✅ Completed | [`6th_day.py`](./6th_day.py), [`5th_day3.py`](./5th_day3.py), [`011_hashing_intro.py`](./topics/01-basics-and-math/011_hashing_intro.py) | • **Brute Force (Nested Loops):** For every query in $n$, scan entire list $m$.<br>• **Time Complexity:** $O(m \times n)$ — can lead to TLE if $m, n = 10^5$ ($10^{10}$ ops).<br>• **Space Complexity:** $O(1)$ auxiliary scalar memory.<br>• **Hashing Motivation:** Precomputing a hash map reduces query time from $O(m \times n)$ to $O(m + n)$ with $O(m)$ space.<br>• **Milestone:** Module 01 (Foundations & Math) completed! 🎉 |
+| **011** | Basics & Math | Intro to Hashing: Query Frequency Search | Easy | ✅ Completed | [`6th_day.py`](./6th_day.py), [`6th_day1.py`](./6th_day1.py), [`5th_day3.py`](./5th_day3.py), [`011_hashing_intro.py`](./topics/01-basics-and-math/011_hashing_intro.py) | • **Brute Force (Nested Loops - `6th_day.py`):** For every query, scan entire array $\rightarrow O(m \times n)$ Time, $O(1)$ Space. Causes TLE on large arrays.<br>• **Optimal Hash Map (`6th_day1.py`):** Non-nested sequential loops $\rightarrow O(n)$ to build frequency dict + $O(m)$ for queries = **$O(m + n)$ Time**! Uses `hash_map.get(key, 0)` for $O(1)$ safe lookup.<br>• **Space Complexity:** $O(u)$ where $u$ is unique elements in $n$.<br>• **Milestone:** Module 01 (Foundations & Math) completed! 🎉 |
 
 ---
 
