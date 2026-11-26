@@ -10,8 +10,8 @@ See the complete lecture-by-lecture breakdown in [**`course-syllabus.md`**](./co
 
 | # | Module Name | Folder | Lectures | Status |
 |---|---|---|:---:|:---:|
-| 01 | Foundations, Complexity & Basic Math | [`topics/01-basics-and-math/`](./topics/01-basics-and-math/) | 001 – 011 | 🟡 In Progress |
-| 02 | Recursion & Backtracking | [`topics/02-recursion-and-backtracking/`](./topics/02-recursion-and-backtracking/) | 012–018, 069–087 | ⚪ Planned |
+| 01 | Foundations, Complexity & Basic Math | [`topics/01-basics-and-math/`](./topics/01-basics-and-math/) | 001 – 011 | ✅ Completed |
+| 02 | Recursion & Backtracking | [`topics/02-recursion-and-backtracking/`](./topics/02-recursion-and-backtracking/) | 012–018, 069–087 | 🟡 In Progress |
 | 03 | Sorting Algorithms | [`topics/03-sorting-algorithms/`](./topics/03-sorting-algorithms/) | 019 – 023 | ⚪ Planned |
 | 04 | Arrays & 2D Matrices | [`topics/04-arrays-and-matrices/`](./topics/04-arrays-and-matrices/) | 024 – 045 | ⚪ Planned |
 | 05 | Binary Search | [`topics/05-binary-search/`](./topics/05-binary-search/) | 046 – 054 | ⚪ Planned |

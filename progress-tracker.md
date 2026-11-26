@@ -4,6 +4,14 @@ Keep track of your daily study session, lecture numbers, problems solved, and ke
 
 ---
 
+### 🌟 Day 6 — 2026-11-26
+
+| Lecture # | Module | Problem / Concept | Difficulty | Status | Solution Files | Notes & Key Takeaways |
+|:---:|---|---|:---:|:---:|---|---|
+| **011** | Basics & Math | Intro to Hashing: Query Frequency Search | Easy | ✅ Completed | [`6th_day.py`](./6th_day.py), [`5th_day3.py`](./5th_day3.py), [`011_hashing_intro.py`](./topics/01-basics-and-math/011_hashing_intro.py) | • **Brute Force (Nested Loops):** For every query in $n$, scan entire list $m$.<br>• **Time Complexity:** $O(m \times n)$ — can lead to TLE if $m, n = 10^5$ ($10^{10}$ ops).<br>• **Space Complexity:** $O(1)$ auxiliary scalar memory.<br>• **Hashing Motivation:** Precomputing a hash map reduces query time from $O(m \times n)$ to $O(m + n)$ with $O(m)$ space.<br>• **Milestone:** Module 01 (Foundations & Math) completed! 🎉 |
+
+---
+
 ### 🌟 Day 5 — 2026-11-25
 
 | Lecture # | Module | Problem / Concept | Difficulty | Status | Solution Files | Notes & Key Takeaways |
@@ -50,7 +58,6 @@ Keep track of your daily study session, lecture numbers, problems solved, and ke
 - [x] Brainstorm approach before checking solution
 - [x] Analyze Time & Space Complexity
 - [x] Implement initial solution and test
-- [x] Implement optimized $O(\sqrt{n})$ approach
-- [x] Implement frequency distribution with hash map
+- [x] Implement optimized approaches
 - [x] Add an entry in this tracker
 - [x] Commit & push to GitHub
